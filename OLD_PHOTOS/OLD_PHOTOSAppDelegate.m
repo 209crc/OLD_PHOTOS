@@ -12,13 +12,42 @@
 
 @implementation OLD_PHOTOSAppDelegate
 
+@synthesize displayHeight, displayWidth, statusbarHeight;
+@synthesize fontSize, fontColor, numWidth;
+@synthesize scaleTrans, leftRotateTrans, rightRotateTrans, reverseTrans, idleTrans, upTrans;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+
+	[UIApplication sharedApplication].statusBarHidden = YES;
+	
+	displayWidth = [[UIScreen mainScreen] applicationFrame].size.width;
+	displayHeight = [[UIScreen mainScreen] applicationFrame].size.height;
+	if ([[[UIDevice currentDevice]systemVersion] floatValue] >= 7.0) {
+		statusbarHeight = [[UIApplication sharedApplication] statusBarFrame].size.height;
+	}
+	else {
+		statusbarHeight = 0;
+	}
+	
+	scaleTrans = CGAffineTransformMakeScale(1, displayHeight / displayHeight);
+	leftRotateTrans = CGAffineTransformMakeRotation(M_PI/2);
+	rightRotateTrans = CGAffineTransformMakeRotation(-1 * M_PI/2);
+	idleTrans = CGAffineTransformIdentity;
+	reverseTrans = CGAffineTransformMakeRotation(M_PI);	
+	upTrans = CGAffineTransformMakeTranslation(0, -1 * displayHeight);
+	
+	fontColor = [UIColor blackColor];
+
 	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+		fontSize = 18;
+		numWidth = 44;
 	    self.viewController = [[OLD_PHOTOSViewController alloc] initWithNibName:@"OLD_PHOTOSViewController_iPhone" bundle:nil];
 	} else {
+		fontSize = 24;
+		numWidth = 88;
 	    self.viewController = [[OLD_PHOTOSViewController alloc] initWithNibName:@"OLD_PHOTOSViewController_iPad" bundle:nil];
 	}
 	self.window.rootViewController = self.viewController;

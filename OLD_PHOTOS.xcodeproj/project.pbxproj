@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332C677617337CF90076D825 /* redLine.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 332C677517337CF90076D825 /* redLine.PNG */; };
+		332C6778173383B60076D825 /* shutterBtn.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 332C6777173383B50076D825 /* shutterBtn.PNG */; };
+		332C677A173387B20076D825 /* settingBtn.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 332C6779173387B20076D825 /* settingBtn.PNG */; };
+		332C677C173394600076D825 /* infoBtn.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 332C677B173394600076D825 /* infoBtn.PNG */; };
+		3383FD0D1725702C00C8BBEA /* menuView.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3383FD0C1725702C00C8BBEA /* menuView.PNG */; };
+		33C3568B172D069800C1BF2C /* rotateArrowL.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 33C35689172D069800C1BF2C /* rotateArrowL.PNG */; };
+		33C3568C172D069800C1BF2C /* rotateArrowR.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 33C3568A172D069800C1BF2C /* rotateArrowR.PNG */; };
+		33C3568F172D198800C1BF2C /* se-033.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33C3568E172D198800C1BF2C /* se-033.mp3 */; };
+		33C35691172D1C8700C1BF2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C35690172D1C8700C1BF2C /* AudioToolbox.framework */; };
 		33EA8C331715979800054D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EA8C321715979800054D87 /* UIKit.framework */; };
 		33EA8C351715979800054D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EA8C341715979800054D87 /* Foundation.framework */; };
 		33EA8C371715979800054D87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EA8C361715979800054D87 /* CoreGraphics.framework */; };
@@ -19,9 +28,22 @@
 		33EA8C4C1715979900054D87 /* OLD_PHOTOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA8C4B1715979900054D87 /* OLD_PHOTOSViewController.m */; };
 		33EA8C4F1715979900054D87 /* OLD_PHOTOSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EA8C4D1715979900054D87 /* OLD_PHOTOSViewController_iPhone.xib */; };
 		33EA8C521715979900054D87 /* OLD_PHOTOSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EA8C501715979900054D87 /* OLD_PHOTOSViewController_iPad.xib */; };
+		33EA8C5917159A1400054D87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EA8C5817159A1400054D87 /* AVFoundation.framework */; };
+		33EA8C5B17159A1C00054D87 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EA8C5A17159A1C00054D87 /* AssetsLibrary.framework */; };
+		33EA8C5D17159A2400054D87 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EA8C5C17159A2400054D87 /* CoreMedia.framework */; };
+		33EA8C5F17159A2D00054D87 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EA8C5E17159A2D00054D87 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		332C677517337CF90076D825 /* redLine.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redLine.PNG; path = images/redLine.PNG; sourceTree = "<group>"; };
+		332C6777173383B50076D825 /* shutterBtn.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shutterBtn.PNG; path = images/shutterBtn.PNG; sourceTree = "<group>"; };
+		332C6779173387B20076D825 /* settingBtn.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settingBtn.PNG; path = images/settingBtn.PNG; sourceTree = "<group>"; };
+		332C677B173394600076D825 /* infoBtn.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infoBtn.PNG; path = images/infoBtn.PNG; sourceTree = "<group>"; };
+		3383FD0C1725702C00C8BBEA /* menuView.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuView.PNG; path = images/menuView.PNG; sourceTree = "<group>"; };
+		33C35689172D069800C1BF2C /* rotateArrowL.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rotateArrowL.PNG; path = images/rotateArrowL.PNG; sourceTree = "<group>"; };
+		33C3568A172D069800C1BF2C /* rotateArrowR.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rotateArrowR.PNG; path = images/rotateArrowR.PNG; sourceTree = "<group>"; };
+		33C3568E172D198800C1BF2C /* se-033.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "se-033.mp3"; path = "musics/se-033/se-033.mp3"; sourceTree = "<group>"; };
+		33C35690172D1C8700C1BF2C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		33EA8C2F1715979800054D87 /* OLD_PHOTOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OLD_PHOTOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EA8C321715979800054D87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		33EA8C341715979800054D87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +61,10 @@
 		33EA8C4B1715979900054D87 /* OLD_PHOTOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLD_PHOTOSViewController.m; sourceTree = "<group>"; };
 		33EA8C4E1715979900054D87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OLD_PHOTOSViewController_iPhone.xib; sourceTree = "<group>"; };
 		33EA8C511715979900054D87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OLD_PHOTOSViewController_iPad.xib; sourceTree = "<group>"; };
+		33EA8C5817159A1400054D87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		33EA8C5A17159A1C00054D87 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		33EA8C5C17159A2400054D87 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		33EA8C5E17159A2D00054D87 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C35691172D1C8700C1BF2C /* AudioToolbox.framework in Frameworks */,
+				33EA8C5F17159A2D00054D87 /* CoreVideo.framework in Frameworks */,
+				33EA8C5D17159A2400054D87 /* CoreMedia.framework in Frameworks */,
+				33EA8C5B17159A1C00054D87 /* AssetsLibrary.framework in Frameworks */,
+				33EA8C5917159A1400054D87 /* AVFoundation.framework in Frameworks */,
 				33EA8C331715979800054D87 /* UIKit.framework in Frameworks */,
 				33EA8C351715979800054D87 /* Foundation.framework in Frameworks */,
 				33EA8C371715979800054D87 /* CoreGraphics.framework in Frameworks */,
@@ -55,9 +86,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3383FD0B17256FED00C8BBEA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				332C677B173394600076D825 /* infoBtn.PNG */,
+				3383FD0C1725702C00C8BBEA /* menuView.PNG */,
+				332C677517337CF90076D825 /* redLine.PNG */,
+				33C35689172D069800C1BF2C /* rotateArrowL.PNG */,
+				33C3568A172D069800C1BF2C /* rotateArrowR.PNG */,
+				332C6779173387B20076D825 /* settingBtn.PNG */,
+				332C6777173383B50076D825 /* shutterBtn.PNG */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		33C3568D172D196900C1BF2C /* musics */ = {
+			isa = PBXGroup;
+			children = (
+				33C3568E172D198800C1BF2C /* se-033.mp3 */,
+			);
+			name = musics;
+			sourceTree = "<group>";
+		};
 		33EA8C261715979800054D87 = {
 			isa = PBXGroup;
 			children = (
+				33C35690172D1C8700C1BF2C /* AudioToolbox.framework */,
 				33EA8C381715979800054D87 /* OLD_PHOTOS */,
 				33EA8C311715979800054D87 /* Frameworks */,
 				33EA8C301715979800054D87 /* Products */,
@@ -75,6 +129,10 @@
 		33EA8C311715979800054D87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33EA8C5E17159A2D00054D87 /* CoreVideo.framework */,
+				33EA8C5C17159A2400054D87 /* CoreMedia.framework */,
+				33EA8C5A17159A1C00054D87 /* AssetsLibrary.framework */,
+				33EA8C5817159A1400054D87 /* AVFoundation.framework */,
 				33EA8C321715979800054D87 /* UIKit.framework */,
 				33EA8C341715979800054D87 /* Foundation.framework */,
 				33EA8C361715979800054D87 /* CoreGraphics.framework */,
@@ -99,6 +157,8 @@
 		33EA8C391715979800054D87 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33C3568D172D196900C1BF2C /* musics */,
+				3383FD0B17256FED00C8BBEA /* images */,
 				33EA8C3A1715979800054D87 /* OLD_PHOTOS-Info.plist */,
 				33EA8C3B1715979800054D87 /* InfoPlist.strings */,
 				33EA8C3E1715979800054D87 /* main.m */,
@@ -168,6 +228,14 @@
 				33EA8C491715979900054D87 /* Default-568h@2x.png in Resources */,
 				33EA8C4F1715979900054D87 /* OLD_PHOTOSViewController_iPhone.xib in Resources */,
 				33EA8C521715979900054D87 /* OLD_PHOTOSViewController_iPad.xib in Resources */,
+				3383FD0D1725702C00C8BBEA /* menuView.PNG in Resources */,
+				33C3568B172D069800C1BF2C /* rotateArrowL.PNG in Resources */,
+				33C3568C172D069800C1BF2C /* rotateArrowR.PNG in Resources */,
+				33C3568F172D198800C1BF2C /* se-033.mp3 in Resources */,
+				332C677617337CF90076D825 /* redLine.PNG in Resources */,
+				332C6778173383B60076D825 /* shutterBtn.PNG in Resources */,
+				332C677A173387B20076D825 /* settingBtn.PNG in Resources */,
+				332C677C173394600076D825 /* infoBtn.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +381,7 @@
 				33EA8C571715979900054D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
